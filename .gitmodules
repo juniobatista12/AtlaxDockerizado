@@ -1,0 +1,6 @@
+[submodule "project-mp"]
+	path = project-mp
+	url = https://github.com/Devssaurinho/project-mp.git
+[submodule "ProjetoMPBackEnd"]
+	path = ProjetoMPBackEnd
+	url = https://github.com/AMSoulAres/ProjetoMPBackEnd.git
