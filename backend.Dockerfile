@@ -1,15 +1,10 @@
-FROM ubuntu:22.04
+FROM 3.11.4-alpine3.18
 
 WORKDIR /src
 
 ADD ./ProjetoMPBackEnd/ /src
 
 EXPOSE 8000
-
-RUN apt update
-
-RUN apt install -y \
-    python3 pip
 
 RUN pip3 install \
     fastapi uvicorn django pytest pylint firebase_admin requests pytest-cov httpx flake8 pylint autopep8
